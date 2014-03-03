@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1002705018C0D8F00082CDE9 /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1002704F18C0D8F00082CDE9 /* welcome.gif */; };
+		1030DAD018BF716D00E73673 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1030DACF18BF716D00E73673 /* TableViewController.m */; };
+		10A9BF1E18BFBA8600B16613 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF1D18BFBA8600B16613 /* Main_iPhone.storyboard */; };
+		10A9BF2018BFC4A900B16613 /* winnie.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF1F18BFC4A900B16613 /* winnie.gif */; };
+		10A9BF2218BFC4EF00B16613 /* rabbit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2118BFC4EF00B16613 /* rabbit.gif */; };
+		10A9BF2418BFC50500B16613 /* line_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2318BFC50500B16613 /* line_1.gif */; };
+		10A9BF2618BFC51400B16613 /* line_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2518BFC51400B16613 /* line_2.gif */; };
+		10A9BF2818BFC52200B16613 /* line_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2718BFC52200B16613 /* line_3.gif */; };
+		10A9BF2A18BFC52E00B16613 /* line_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2918BFC52E00B16613 /* line_4.gif */; };
+		10A9BF2C18BFC53800B16613 /* line_5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2B18BFC53800B16613 /* line_5.gif */; };
+		10A9BF2E18C0900700B16613 /* about_me.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A9BF2D18C0900700B16613 /* about_me.gif */; };
 		5A29B87118BED1BA002F2651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B87018BED1BA002F2651 /* Foundation.framework */; };
 		5A29B87318BED1BA002F2651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B87218BED1BA002F2651 /* CoreGraphics.framework */; };
 		5A29B87518BED1BA002F2651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B87418BED1BA002F2651 /* UIKit.framework */; };
 		5A29B87B18BED1BA002F2651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B87918BED1BA002F2651 /* InfoPlist.strings */; };
 		5A29B87D18BED1BA002F2651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29B87C18BED1BA002F2651 /* main.m */; };
 		5A29B88118BED1BA002F2651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29B88018BED1BA002F2651 /* AppDelegate.m */; };
-		5A29B88418BED1BA002F2651 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B88218BED1BA002F2651 /* Main_iPhone.storyboard */; };
-		5A29B88718BED1BA002F2651 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B88518BED1BA002F2651 /* Main_iPad.storyboard */; };
 		5A29B88A18BED1BA002F2651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29B88918BED1BA002F2651 /* ViewController.m */; };
 		5A29B88C18BED1BA002F2651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B88B18BED1BA002F2651 /* Images.xcassets */; };
 		5A29B89318BED1BA002F2651 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B89218BED1BA002F2651 /* XCTest.framework */; };
@@ -22,6 +31,8 @@
 		5A29B89518BED1BA002F2651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B87418BED1BA002F2651 /* UIKit.framework */; };
 		5A29B89D18BED1BA002F2651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B89B18BED1BA002F2651 /* InfoPlist.strings */; };
 		5A29B89F18BED1BA002F2651 /* hw1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29B89E18BED1BA002F2651 /* hw1Tests.m */; };
+		5A29B8AC18BEE89F002F2651 /* bobo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A29B8AB18BEE89F002F2651 /* bobo.jpg */; };
+		5A9EFBEE18BF259A00AB6BB5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EFBED18BF259A00AB6BB5 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1002704F18C0D8F00082CDE9 /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
+		1030DACE18BF716D00E73673 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1030DACF18BF716D00E73673 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		10A9BF1D18BFBA8600B16613 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		10A9BF1F18BFC4A900B16613 /* winnie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = winnie.gif; sourceTree = "<group>"; };
+		10A9BF2118BFC4EF00B16613 /* rabbit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rabbit.gif; sourceTree = "<group>"; };
+		10A9BF2318BFC50500B16613 /* line_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = line_1.gif; sourceTree = "<group>"; };
+		10A9BF2518BFC51400B16613 /* line_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = line_2.gif; sourceTree = "<group>"; };
+		10A9BF2718BFC52200B16613 /* line_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = line_3.gif; sourceTree = "<group>"; };
+		10A9BF2918BFC52E00B16613 /* line_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = line_4.gif; sourceTree = "<group>"; };
+		10A9BF2B18BFC53800B16613 /* line_5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = line_5.gif; sourceTree = "<group>"; };
+		10A9BF2D18C0900700B16613 /* about_me.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = about_me.gif; sourceTree = "<group>"; };
 		5A29B86D18BED1BA002F2651 /* hw1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A29B87018BED1BA002F2651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A29B87218BED1BA002F2651 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +68,6 @@
 		5A29B87E18BED1BA002F2651 /* hw1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hw1-Prefix.pch"; sourceTree = "<group>"; };
 		5A29B87F18BED1BA002F2651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A29B88018BED1BA002F2651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A29B88318BED1BA002F2651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5A29B88618BED1BA002F2651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5A29B88818BED1BA002F2651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5A29B88918BED1BA002F2651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A29B88B18BED1BA002F2651 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +76,9 @@
 		5A29B89A18BED1BA002F2651 /* hw1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw1Tests-Info.plist"; sourceTree = "<group>"; };
 		5A29B89C18BED1BA002F2651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A29B89E18BED1BA002F2651 /* hw1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw1Tests.m; sourceTree = "<group>"; };
+		5A29B8AB18BEE89F002F2651 /* bobo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobo.jpg; sourceTree = "<group>"; };
+		5A9EFBEC18BF259A00AB6BB5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5A9EFBED18BF259A00AB6BB5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +138,25 @@
 		5A29B87618BED1BA002F2651 /* hw1 */ = {
 			isa = PBXGroup;
 			children = (
+				1002704F18C0D8F00082CDE9 /* welcome.gif */,
+				10A9BF2D18C0900700B16613 /* about_me.gif */,
+				10A9BF2B18BFC53800B16613 /* line_5.gif */,
+				10A9BF2918BFC52E00B16613 /* line_4.gif */,
+				10A9BF2718BFC52200B16613 /* line_3.gif */,
+				10A9BF2518BFC51400B16613 /* line_2.gif */,
+				10A9BF2318BFC50500B16613 /* line_1.gif */,
+				10A9BF2118BFC4EF00B16613 /* rabbit.gif */,
+				10A9BF1F18BFC4A900B16613 /* winnie.gif */,
+				5A29B8AB18BEE89F002F2651 /* bobo.jpg */,
+				10A9BF1D18BFBA8600B16613 /* Main_iPhone.storyboard */,
 				5A29B87F18BED1BA002F2651 /* AppDelegate.h */,
 				5A29B88018BED1BA002F2651 /* AppDelegate.m */,
-				5A29B88218BED1BA002F2651 /* Main_iPhone.storyboard */,
-				5A29B88518BED1BA002F2651 /* Main_iPad.storyboard */,
+				1030DACE18BF716D00E73673 /* TableViewController.h */,
+				1030DACF18BF716D00E73673 /* TableViewController.m */,
 				5A29B88818BED1BA002F2651 /* ViewController.h */,
 				5A29B88918BED1BA002F2651 /* ViewController.m */,
+				5A9EFBEC18BF259A00AB6BB5 /* DetailViewController.h */,
+				5A9EFBED18BF259A00AB6BB5 /* DetailViewController.m */,
 				5A29B88B18BED1BA002F2651 /* Images.xcassets */,
 				5A29B87718BED1BA002F2651 /* Supporting Files */,
 			);
@@ -231,10 +268,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A29B88718BED1BA002F2651 /* Main_iPad.storyboard in Resources */,
+				10A9BF1E18BFBA8600B16613 /* Main_iPhone.storyboard in Resources */,
 				5A29B88C18BED1BA002F2651 /* Images.xcassets in Resources */,
-				5A29B88418BED1BA002F2651 /* Main_iPhone.storyboard in Resources */,
+				10A9BF2018BFC4A900B16613 /* winnie.gif in Resources */,
+				5A29B8AC18BEE89F002F2651 /* bobo.jpg in Resources */,
+				10A9BF2218BFC4EF00B16613 /* rabbit.gif in Resources */,
+				1002705018C0D8F00082CDE9 /* welcome.gif in Resources */,
+				10A9BF2A18BFC52E00B16613 /* line_4.gif in Resources */,
 				5A29B87B18BED1BA002F2651 /* InfoPlist.strings in Resources */,
+				10A9BF2418BFC50500B16613 /* line_1.gif in Resources */,
+				10A9BF2E18C0900700B16613 /* about_me.gif in Resources */,
+				10A9BF2C18BFC53800B16613 /* line_5.gif in Resources */,
+				10A9BF2818BFC52200B16613 /* line_3.gif in Resources */,
+				10A9BF2618BFC51400B16613 /* line_2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +302,8 @@
 				5A29B88A18BED1BA002F2651 /* ViewController.m in Sources */,
 				5A29B88118BED1BA002F2651 /* AppDelegate.m in Sources */,
 				5A29B87D18BED1BA002F2651 /* main.m in Sources */,
+				1030DAD018BF716D00E73673 /* TableViewController.m in Sources */,
+				5A9EFBEE18BF259A00AB6BB5 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,22 +332,6 @@
 				5A29B87A18BED1BA002F2651 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5A29B88218BED1BA002F2651 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29B88318BED1BA002F2651 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5A29B88518BED1BA002F2651 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A29B88618BED1BA002F2651 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		5A29B89B18BED1BA002F2651 /* InfoPlist.strings */ = {
@@ -474,6 +506,7 @@
 				5A29B8A418BED1BA002F2651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A29B8A518BED1BA002F2651 /* Build configuration list for PBXNativeTarget "hw1Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +515,7 @@
 				5A29B8A718BED1BA002F2651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
